@@ -1,0 +1,18 @@
+{
+    "name": "mbmjertan/mathcourt",
+    "description": "A simple mathematics game aiming to increase understanding of probability",
+    "type": "project",
+    "license": "CC-BY-SA 4.0",
+    "authors": [
+        {
+            "name": "Mario Borna Mjertan",
+            "email": "mbm@educateam.hr"
+        }
+    ],
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Mathcourt\\": "src/controllers"}
+    }
+}
