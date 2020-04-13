@@ -39,7 +39,7 @@ class HTTPRequest{
 					header('Location: '.$Config->trimpath.'/predmet/'.$Routes[1]);
 				break;
 			default:
-				# code...
+				header('Location: '.$Config->trimpath);
 				break;
 		}
 	}
